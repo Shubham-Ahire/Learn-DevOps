@@ -199,19 +199,19 @@ This command removes all the stopped containers.
 * **Remove Unused Images**:
     
     ```bash
-    bashCopy codedocker image prune
+    docker image prune
     ```
     
     This command removes dangling images (those not tagged or associated with a container). You can also use the `-a` flag to remove all unused images, not just dangling ones:
     
     ```bash
-    bashCopy codedocker image prune -a
+    docker image prune -a
     ```
     
 * **Remove Unused Networks**:
     
     ```bash
-    bashCopy codedocker network prune
+    docker network prune
     ```
     
     This command removes networks that are not used by any containers.
@@ -219,7 +219,7 @@ This command removes all the stopped containers.
 * **Remove Unused Volumes**:
     
     ```bash
-    bashCopy codedocker volume prune
+    docker volume prune
     ```
     
     This command removes all unused volumes.
